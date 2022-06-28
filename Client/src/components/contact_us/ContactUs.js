@@ -31,9 +31,9 @@ const ContactUs = (props) => {
     if (today === 6) {
       return <p className="open_status">Closed today</p>;
     } else if (today === 5) {
-      return <p className="open_status">Open today until 4:00 PM</p>;
+      return <p className="open_status">Open today until 2:00 PM</p>;
     } else {
-      return <p className="open_status">Open today until 8:00 PM</p>;
+      return <p className="open_status">Open today until 5:00 PM</p>;
     }
   };
 
@@ -81,8 +81,8 @@ const ContactUs = (props) => {
                     key: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
                   }}
                   center={{
-                    lat: 40.643635,
-                    lng: -73.695618,
+                    lat: 26.15586,
+                    lng: 91.77734,
                   }}
                   defaultZoom={14}
                   style={{
@@ -93,11 +93,11 @@ const ContactUs = (props) => {
                   }}
                 >
                   <ContactCustomMarker
-                    lat={40.643635}
-                    lng={-73.695618}
+                    lat={26.15586}
+                    lng={91.77734}
                     currentScreenSize={currentScreenSize}
                     initialScreenSize={initialScreenSize}
-                    text="Glow Labs"
+                    text="CA"
                   />
                 </GoogleMapReact>
               </div>
@@ -131,18 +131,18 @@ const ContactUs = (props) => {
                   />
                 </div>
                 <div className="contact_us_address">
-                  <p>1506 Broadway,</p>
-                  <p>Hewlett, NY 11557</p>
+                  <p>Christian Basti,</p>
+                  <p>Guwahati-06, Assam, India</p>
                 </div>
               </div>
               <div className="contact_us_contact_container">
                 <p>
                   <FontAwesomeIcon className="contact_icon" icon={faEnvelope} />{" "}
-                  glowlabs@yahoo.com
+                  santosmmu@gmail.com
                 </p>
                 <p>
                   <FontAwesomeIcon className="contact_icon" icon={faPhone} />{" "}
-                  (516) 442-8122
+                  (600) 200-45855
                 </p>
               </div>
               <div className="contact_us_times_section">
@@ -158,13 +158,13 @@ const ContactUs = (props) => {
                     <p>Sat</p>
                   </div>
                   <div className="contact_us_hours_container">
-                    <p>10:00 AM - 8:00 PM</p>
-                    <p>10:00 AM - 8:00 PM</p>
-                    <p>10:00 AM - 8:00 PM</p>
-                    <p>10:00 AM - 8:00 PM</p>
-                    <p>10:00 AM - 8:00 PM</p>
-                    <p>10:00 AM - 4:00 PM</p>
                     <p>Closed</p>
+                    <p>10:00 AM - 5:00 PM</p>
+                    <p>10:00 AM - 5:00 PM</p>
+                    <p>10:00 AM - 5:00 PM</p>
+                    <p>10:00 AM - 5:00 PM</p>
+                    <p>10:00 AM - 5:00 PM</p>
+                    <p>10:00 AM - 2:00 PM</p>
                   </div>
                 </div>
               </div>

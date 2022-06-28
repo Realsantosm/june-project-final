@@ -128,11 +128,10 @@ const ShoppingCart = (props) => {
               color="rgba(211, 211, 211, 0.6)"
               icon={faShoppingCart}
             />
-            <h3>No items in your cart</h3>
+            <h3><span>🤣</span></h3>
           </div>
           <p className="cart_statement">
-            You do not have any facial treatments or add-ons in your cart right
-            now
+            <span>🐥</span>
           </p>
         </>
       );
@@ -445,8 +444,7 @@ const ShoppingCart = (props) => {
         <div className="esthetician_preference_dropdown">
           <FormGroup className="esthetician_preference_formgroup">
             <p>
-              Would you like to book an appointment with a particular
-              esthetician?
+             <span>🐣</span>
             </p>
             <div className="esthetician_preference_dropdown_input_field">
               <FontAwesomeIcon
@@ -496,7 +494,7 @@ const ShoppingCart = (props) => {
             marginTop: counter === 0 ? "0vh" : "2vh",
           }}
         >
-          <p>Search Availability</p>
+          <p style={{fontSize: '1rem'}}><span>🙋‍♂️</span></p>
         </div>
       </Link>
       <Link
@@ -508,7 +506,7 @@ const ShoppingCart = (props) => {
           className="continue_shopping_button"
           style={{ marginTop: counter === 0 ? "0vh" : "1.5rem" }}
         >
-          <p>Continue Shopping</p>
+          <p>Hope You keep Enjoying..!!</p>
         </div>
       </Link>
     </div>

@@ -38,19 +38,19 @@ const TermsAndConditions = () => {
         <strong>Terms and Conditions</strong>
       </h1>
       <p>
-        <i>Last updated: January 1st, {new Date().getFullYear()}</i>
+        <i>Last updated: June 1st, {new Date().getFullYear()}</i>
       </p>
 
-      <p>Welcome to Glow Labs Facial Bar!</p>
+      <p>Welcome to NC Karnany & Co.!</p>
 
       <p>
         These terms and conditions outline the rules and regulations for the use
-        of Glow Labs's Website, located at https://glowlabs.herokuapp.com.
+        of CA's Website.
       </p>
 
       <p>
         By accessing this website we assume you accept these terms and
-        conditions. Do not continue to use Glow Labs Facial Bar if you do not
+        conditions. Do not continue to use NC & Karnany & Co. if you do not
         agree to take all of the terms and conditions stated on this page.
       </p>
 
@@ -65,7 +65,7 @@ const TermsAndConditions = () => {
         process of our assistance to the Client in the most appropriate manner
         for the express purpose of meeting the Client’s needs in respect of
         provision of the Company’s stated services, in accordance with and
-        subject to, prevailing law of Netherlands. Any use of the above
+        subject to, prevailing law of India. Any use of the above
         terminology or other words in the singular, plural, capitalization
         and/or he/she or they, are taken as interchangeable and therefore as
         referring to same.
@@ -76,8 +76,8 @@ const TermsAndConditions = () => {
       </h2>
 
       <p>
-        We employ the use of cookies. By accessing Glow Labs Facial Bar, you
-        agreed to use cookies in agreement with the Glow Labs's Privacy Policy.{" "}
+        We employ the use of cookies. By accessing NC Karnany & Co, you
+        agreed to use cookies in agreement with the NC Karnany's Privacy Policy.{" "}
       </p>
 
       <p>
@@ -93,19 +93,19 @@ const TermsAndConditions = () => {
       </h2>
 
       <p>
-        Unless otherwise stated, Glow Labs and/or its licensors own the
+        Unless otherwise stated, NC Karnany & Co. and/or its licensors own the
         intellectual property rights for all material on Glow Labs Facial Bar.
         All intellectual property rights are reserved. You may access this from
-        Glow Labs Facial Bar for your own personal use subjected to restrictions
+        NC Karnany & Co. for your own personal use subjected to restrictions
         set in these terms and conditions.
       </p>
 
       <p>You must not:</p>
       <ul>
-        <li>Republish material from Glow Labs Facial Bar</li>
-        <li>Sell, rent or sub-license material from Glow Labs Facial Bar</li>
-        <li>Reproduce, duplicate or copy material from Glow Labs Facial Bar</li>
-        <li>Redistribute content from Glow Labs Facial Bar</li>
+        <li>Republish material from NC Karnany & Co..</li>
+        <li>Sell, rent or sub-license material from NC Karnany & Co.</li>
+        <li>Reproduce, duplicate or copy material from NC Karnany & Co.</li>
+        <li>Redistribute content from NC Karnany & Co.</li>
       </ul>
 
       <p>
@@ -123,19 +123,19 @@ const TermsAndConditions = () => {
 
       <p>
         Parts of this website offer an opportunity for users to post and
-        exchange opinions and information in certain areas of the website. Glow
-        Labs does not filter, edit, publish or review Comments prior to their
+        exchange opinions and information in certain areas of the website. NC Karnany & Co.
+        does not filter, edit, publish or review Comments prior to their
         presence on the website. Comments do not reflect the views and opinions
-        of Glow Labs,its agents and/or affiliates. Comments reflect the views
+        of NC Karnany & Co.,its agents and/or affiliates. Comments reflect the views
         and opinions of the person who post their views and opinions. To the
-        extent permitted by applicable laws, Glow Labs shall not be liable for
+        extent permitted by applicable laws, NC Karnany & Co. shall not be liable for
         the Comments or for any liability, damages or expenses caused and/or
         suffered as a result of any use of and/or posting of and/or appearance
         of the Comments on this website.
       </p>
 
       <p>
-        Glow Labs reserves the right to monitor all Comments and to remove any
+        NC Karnany & Co. reserves the right to monitor all Comments and to remove any
         Comments which can be considered inappropriate, offensive or causes
         breach of these Terms and Conditions.
       </p>
@@ -163,7 +163,7 @@ const TermsAndConditions = () => {
       </ul>
 
       <p>
-        You hereby grant Glow Labs a non-exclusive license to use, reproduce,
+        You hereby grant NC Karnany & Co. a non-exclusive license to use, reproduce,
         edit and authorize others to use, reproduce and edit any of your
         Comments in any and all forms, formats or media.
       </p>
@@ -235,7 +235,7 @@ const TermsAndConditions = () => {
       <p>
         If you are one of the organizations listed in paragraph 2 above and are
         interested in linking to our website, you must inform us by sending an
-        e-mail to Glow Labs. Please include your name, your organization name,
+        e-mail to NC Karnany & Co.. Please include your name, your organization name,
         contact information as well as the URL of your site, a list of any URLs
         from which you intend to link to our Website, and a list of the URLs on
         our site to which you would like to link. Wait 2-3 weeks for a response.
@@ -254,7 +254,7 @@ const TermsAndConditions = () => {
       </ul>
 
       <p>
-        No use of Glow Labs's logo or other artwork will be allowed for linking
+        No use of NC Karnany & Co.'s logo or other artwork will be allowed for linking
         absent a trademark license agreement.
       </p>
 

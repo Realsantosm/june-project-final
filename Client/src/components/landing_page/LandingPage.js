@@ -864,8 +864,8 @@ const LandingPage = React.forwardRef((props, ref) => {
                           : `${styleopacity.opacity}`,
                       }}
                     >
-                      Customized skin care,
-                      <br /> down to a science.
+                      Your Account,
+                      <br /> and We are an Expert.
                     </h1>
                     <p
                       className="landing_page_description"
@@ -875,9 +875,11 @@ const LandingPage = React.forwardRef((props, ref) => {
                           : `${styleopacity.opacity}`,
                       }}
                     >
-                      We've reimagined the traditional idea of a facial so that
-                      we can do the thinking for you. Lay back, relax, and
-                      listen to that Peruvian pan flute music. <br />
+                      We've reimagined the traditional way to manage the
+                      accounts and customisable and most effective solution &
+                      also it is affordable. Worry not about your Account
+                      anymore because,
+                      <br />
                       We'll figure out the rest.
                     </p>
                     <div
@@ -899,7 +901,7 @@ const LandingPage = React.forwardRef((props, ref) => {
                         <p
                           onClick={() => handleClickToScrollToTreatments("cta")}
                         >
-                          GET STARTED NOW
+                          Your Account
                         </p>
                       </div>
                     </div>

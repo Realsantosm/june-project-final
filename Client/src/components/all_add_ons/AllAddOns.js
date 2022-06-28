@@ -86,7 +86,7 @@ const AllAddOns = React.forwardRef((props, ref) => {
                   }}
                   ref={addOnsHeaderRef}
                 >
-                  YOUR ADD-ONS
+                 SERVICES
                 </h2>
                 <span
                   style={{
@@ -106,10 +106,10 @@ const AllAddOns = React.forwardRef((props, ref) => {
                   }}
                 >
                   <p>
-                    Complement your <br />
-                    facial with any <br />
-                    of these extra <br />
-                    special treatments.
+                    Our Services <br />
+                    is your Comfort <br />
+                    Know More <br />
+                    about our Services.
                   </p>
                 </h3>
               </>
@@ -144,60 +144,7 @@ const AllAddOns = React.forwardRef((props, ref) => {
           }
         />
       </Suspense>
-      <Suspense fallback={<></>}>
-        <Microcurrent
-          initialScreenSize={initialScreenSize}
-          currentScreenSize={currentScreenSize}
-          resetAllCartStatesExceptTreatments={
-            resetAllCartStatesExceptTreatments
-          }
-        />
-      </Suspense>
-      <Suspense fallback={<></>}>
-        <Microdermabrasion
-          initialScreenSize={initialScreenSize}
-          currentScreenSize={currentScreenSize}
-          resetAllCartStatesExceptTreatments={
-            resetAllCartStatesExceptTreatments
-          }
-        />
-      </Suspense>
-      <Suspense fallback={<></>}>
-        <Dermarolling
-          initialScreenSize={initialScreenSize}
-          currentScreenSize={currentScreenSize}
-          resetAllCartStatesExceptTreatments={
-            resetAllCartStatesExceptTreatments
-          }
-        />
-      </Suspense>
-      <Suspense fallback={<></>}>
-        <NanoNeedling
-          initialScreenSize={initialScreenSize}
-          currentScreenSize={currentScreenSize}
-          resetAllCartStatesExceptTreatments={
-            resetAllCartStatesExceptTreatments
-          }
-        />
-      </Suspense>
-      <Suspense fallback={<></>}>
-        <GuaSha
-          initialScreenSize={initialScreenSize}
-          currentScreenSize={currentScreenSize}
-          resetAllCartStatesExceptTreatments={
-            resetAllCartStatesExceptTreatments
-          }
-        />
-      </Suspense>
-      <Suspense fallback={<></>}>
-        <Beard
-          initialScreenSize={initialScreenSize}
-          currentScreenSize={currentScreenSize}
-          resetAllCartStatesExceptTreatments={
-            resetAllCartStatesExceptTreatments
-          }
-        />
-      </Suspense>
+      
     </div>
   );
 });

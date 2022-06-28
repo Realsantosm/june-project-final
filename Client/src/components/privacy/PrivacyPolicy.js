@@ -38,7 +38,7 @@ const PrivacyPolicy = () => {
         <strong>Privacy Policy</strong>
       </h1>
       <p>
-        <i>Last updated: January 1st, {new Date().getFullYear()}</i>
+        <i>Last updated: June 1st, {new Date().getFullYear()}</i>
       </p>
       <p>
         This Privacy Policy describes Our policies and procedures on the
@@ -80,8 +80,7 @@ const PrivacyPolicy = () => {
           <p>
             <strong>Company</strong> (referred to as either &quot;the
             Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in
-            this Agreement) refers to Glow Labs, LLC, 1506 Broadway Hewlett, NY
-            11557.
+            this Agreement) refers to NC Karnany & Co., LLC, Guwahati-06, India.
           </p>
         </li>
         <li>
@@ -94,7 +93,7 @@ const PrivacyPolicy = () => {
         </li>
         <li>
           <p>
-            <strong>Country</strong> refers to: New York, United States
+            <strong>Country</strong> refers to: New Delhi, India
           </p>
         </li>
         <li>
@@ -140,14 +139,9 @@ const PrivacyPolicy = () => {
         </li>
         <li>
           <p>
-            <strong>Website</strong> refers to Glow Labs Facial Bar, accessible
-            from{" "}
-            <a
-              href="https://glowlabs.herokuapp.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              https://glowlabs.herokuapp.com
+            <strong>Website</strong> refers to NC Karnany & Co., accessible from{" "}
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              https://website.com
             </a>
           </p>
         </li>
@@ -552,10 +546,10 @@ const PrivacyPolicy = () => {
       </p>
       <ul>
         <li>
-          <p>By email: glowlabs@yahoo.com</p>
+          <p>By email: santosmmu@gmail.com</p>
         </li>
         <li>
-          <p>By phone number: (516) 442 8122</p>
+          <p>By phone number: (600) 200 45855</p>
         </li>
       </ul>
       <div className="policy_bottom_buttons_container">

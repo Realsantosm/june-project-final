@@ -206,13 +206,13 @@ const FacebookCompleteRegistration = (props) => {
         </Modal>
       </div>
       <div className="login_page_descriptive_text">
-        <h2>Your skin care.</h2>
-        <h2>Your way.</h2>
+        <h2>Your Account and.</h2>
+        <h2>Your Ways.</h2>
         <ul>
           <li>Keep track of appointments</li>
-          <li>Get skincare product recommendations</li>
-          <li>Track skin progress with before/after photos</li>
-          <li>Build your skin profile</li>
+          <li>Get our recommendations</li>
+          <li>Track all the changes</li>
+          <li>Build your full profile</li>
         </ul>
       </div>
     </div>

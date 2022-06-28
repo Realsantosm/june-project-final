@@ -130,17 +130,17 @@ const FollowUs = React.forwardRef((props, ref) => {
                     Connect with us on <br />
                     Instagram <br />
                     to see our <br />
-                    facials in action
+                    updates
                     <br />
                   </p>
                   <FontAwesomeIcon
                     className="instagram_icon"
                     icon={faInstagram}
                     onClick={() =>
-                      window.open("https://instagram.com/glow.labs", "_blank")
+                      window.open("https://instagram.com/", "_blank")
                     }
                   />
-                  <p>@glow.labs</p>
+                  <p>NC Karnany & Co.</p>
                 </div>
 
                 <div

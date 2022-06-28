@@ -126,7 +126,7 @@ const NotSurePopUp = (props) => {
         </g>
       </svg>
       <div className="notification_text_container">
-        <h3>Not sure which facial to book?</h3>
+        <h3>Not sure what to do here 🤣?</h3>
         <div className="unsure_popup_buttons_container">
           <div
             className="unsure_popup_not_sure_button"

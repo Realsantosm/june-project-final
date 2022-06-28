@@ -122,7 +122,7 @@ const AllTreatments = React.forwardRef((props, ref) => {
                   }}
                   ref={treatmentsHeaderRef}
                 >
-                  YOUR FACIAL
+                  ABOUT US
                 </h2>
                 <span
                   style={{
@@ -142,10 +142,10 @@ const AllTreatments = React.forwardRef((props, ref) => {
                   }}
                 >
                   <p>
-                    Each facial is <br />
-                    customized <br />
-                    to fit your specific <br />
-                    skincare needs
+                    You will know <br />
+                    about us <br />
+                    and what <br />
+                    we do.
                   </p>
                 </h3>
               </>
@@ -175,68 +175,7 @@ const AllTreatments = React.forwardRef((props, ref) => {
           resetAllCartStates={resetAllCartStates}
         />
       </Suspense>
-      <Suspense fallback={<></>}>
-        <Glow
-          initialScreenSize={initialScreenSize}
-          currentScreenSize={currentScreenSize}
-          resetAllCartStates={resetAllCartStates}
-        />
-      </Suspense>
-      <Suspense fallback={<></>}>
-        <Rejuvenate
-          initialScreenSize={initialScreenSize}
-          currentScreenSize={currentScreenSize}
-          resetAllCartStates={resetAllCartStates}
-        />
-      </Suspense>
-      <Suspense fallback={<></>}>
-        <Quench
-          initialScreenSize={initialScreenSize}
-          currentScreenSize={currentScreenSize}
-          resetAllCartStates={resetAllCartStates}
-        />
-      </Suspense>
-      <Suspense fallback={<></>}>
-        <SaltCave
-          initialScreenSize={initialScreenSize}
-          currentScreenSize={currentScreenSize}
-          resetAllCartStates={resetAllCartStates}
-        />
-      </Suspense>
-      <Suspense fallback={<></>}>
-        <ChemicalPeel
-          initialScreenSize={initialScreenSize}
-          currentScreenSize={currentScreenSize}
-          resetAllCartStates={resetAllCartStates}
-        />
-      </Suspense>
-      <Suspense fallback={<></>}>
-        <Dermaplaning
-          initialScreenSize={initialScreenSize}
-          currentScreenSize={currentScreenSize}
-          resetAllCartStates={resetAllCartStates}
-        />
-      </Suspense>
-      <Suspense fallback={<></>}>
-        <CBD
-          initialScreenSize={initialScreenSize}
-          currentScreenSize={currentScreenSize}
-          resetAllCartStates={resetAllCartStates}
-        />
-      </Suspense>
-      <Suspense fallback={<></>}>
-        <Microneedle
-          initialScreenSize={initialScreenSize}
-          currentScreenSize={currentScreenSize}
-          resetAllCartStates={resetAllCartStates}
-        />
-      </Suspense>
-      <Suspense fallback={<></>}>
-        <JetHydroPeel
-          initialScreenSize={initialScreenSize}
-          currentScreenSize={currentScreenSize}
-        />
-      </Suspense>
+      
     </div>
   );
 });
